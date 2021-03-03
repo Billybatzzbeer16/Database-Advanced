@@ -19,7 +19,7 @@ You can install these by copy pasting the code between the brackets in your ubun
   - Pymongo
   - redis
 
-4. Click run
+4. Click run in both files
 
 ## Making of
 ### Week 15/02/2021 lesson 1
