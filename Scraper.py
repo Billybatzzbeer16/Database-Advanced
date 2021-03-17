@@ -4,7 +4,7 @@ import pandas as pd
 import time
 import redis
 
-r = redis.Redis(host='localhost', port=6379, db=0, charset="utf-8" ,decode_responses=True)
+r = redis.Redis(host='redisdb', port=6379, db=0, charset="utf-8" ,decode_responses=True)
 def scraper():
     response = requests.get('https://www.blockchain.com/btc/unconfirmed-transactions')
 
