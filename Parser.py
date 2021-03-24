@@ -5,7 +5,7 @@ import time
 import pymongo as mongo
 import redis
 
-r = redis.Redis(host='redisdb', port=6379, db=0, charset="utf-8" ,decode_responses=True)
+r = redis.Redis(host='redis', port=6379, db=0, charset="utf-8" ,decode_responses=True)
 
 myclient = mongo.MongoClient("mongodb://mongodb:27017/")
 mydb = myclient["Bitcoin"]
