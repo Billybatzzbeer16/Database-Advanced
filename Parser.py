@@ -35,7 +35,7 @@ def parser():
     for x in range(len(lijst)):
         mydict[arr[x]] = lijst[x]
 
-    mycol.insert_one(mydict)
+    x = mycol.insert_one(mydict)
 
 
 while True:
